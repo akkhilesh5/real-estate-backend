@@ -1,0 +1,249 @@
+// get all the properties
+
+{
+  "properties": [
+    {
+      "address": {
+        "street": "137-155 Equestrian Way",
+        "city": "Cambridge",
+        "province": "Ontario",
+        "postal_code": "N3E 0E2"
+      },
+      "listing": {
+        "price": 2500,
+        "currency": "CAD",
+        "status": "For Rent",
+        "date_listed": "2025-03-04",
+        "mls_number": "X11998680",
+        "listing_agent": {
+          "name": "HOUSESIGMA INC.",
+          "contact": "info@housesigma.com"
+        }
+      },
+      "details": {
+        "property_type": "Townhouse",
+        "style": "3-Storey",
+        "bedrooms": 2,
+        "bathrooms": 3,
+        "size_sqft": "1100-1500",
+        "age_years": 0,
+        "features": [
+          "New construction",
+          "Modern finishes"
+        ]
+      }
+    },
+    {
+      "address": {
+        "street": "4001-327 King Street",
+        "city": "Toronto",
+        "province": "Ontario",
+        "postal_code": "M5V 3M8"
+      },
+      "listing": {
+        "price": 2300,
+        "currency": "CAD",
+        "status": "For Rent",
+        "date_listed": "2025-03-04",
+        "mls_number": "C11998679",
+        "listing_agent": {
+          "name": "HOMELIFE LANDMARK REALTY INC.",
+          "contact": "info@homelife.com"
+        }
+      },
+      "details": {
+        "property_type": "Condo",
+        "style": "Apartment",
+        "bedrooms": 1,
+        "bathrooms": 1,
+        "size_sqft": "0-499",
+        "age_years": 1,
+        "features": [
+          "Modern design",
+          "City views"
+        ]
+      }
+    }
+    // Additional property listings can be added here
+  ]
+}
+
+
+
+
+
+-------------------------------------------------------------------------------------------------------------------------------
+/// get property By id after opening the image
+
+
+	{
+  "property": {
+    "address": {
+      "street": "26 Ann Street South",
+      "city": "Clifford",
+      "province": "Ontario",
+      "postal_code": "N0G 1M0"
+    },
+    "listing": {
+      "price": 499900,
+      "currency": "CAD",
+      "status": "For Sale",
+      "date_listed": "2025-02-02",
+      "mls_number": "X11951656",
+      "listing_agent": {
+        "name": "PEAK REALTY LTD.",
+        "contact": "info@peakrealty.com"
+      }
+    },
+    "details": {
+      "property_type": "Semi-Detached",
+      "style": "Bungalow",
+      "size_sqft": 1154,
+      "lot_dimensions_ft": {
+        "frontage": 33.00,
+        "depth": 129.92
+      },
+      "age_years": 10,
+      "taxes": {
+        "amount": 2876,
+        "year": 2024
+      },
+      "bedrooms": 3,
+      "bathrooms": 1,
+      "basement": {
+        "finished": false,
+        "size_sqft": 1154,
+        "features": [
+          "Fire code compliant windows",
+          "Rough-in for bathroom/laundry room",
+          "200 amp panel"
+        ]
+      },
+      "garage": {
+        "attached": true,
+        "size_ft": {
+          "width": 20,
+          "depth": 11
+        }
+      },
+      "driveway": {
+        "material": "Concrete",
+        "completion_date": "2024-07"
+      },
+      "features": [
+        "9 ft ceilings",
+        "Kitchen with backsplash and granite countertops",
+        "Main floor laundry with stackable units",
+        "Hardwood and ceramic floors throughout"
+      ]
+    },
+    "amenities_nearby": [
+      "Park",
+      "Place of Worship",
+      "Public Transit",
+      "Schools"
+    ],
+    "additional_info": {
+      "description": "A great opportunity for a first-time buyer or someone looking to retire in Clifford. This vibrant community offers easy access to schools and many Minto facilities. The seller is willing to discuss a vendor takeback."
+    }
+  }
+}
+------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+/// get property By id after opening the image
+
+
+
+{
+  "property": {
+    "address": {
+      "street": "1032 Hwy 7 Road",
+      "city": "Otonabee-South Monaghan",
+      "province": "Ontario",
+      "postal_code": "K9J 6X8"
+    },
+    "listing": {
+      "price": 539900,
+      "currency": "CAD",
+      "status": "For Sale",
+      "date_listed": "2025-03-03",
+      "mls_number": "X11996494",
+      "listing_agent": {
+        "name": "CENTURY 21 UNITED REALTY INC.",
+        "contact": "info@century21united.com"
+      }
+    },
+    "details": {
+      "property_type": "Detached",
+      "style": "1 1/2 Storey",
+      "age_years": 51,
+      "bedrooms": 2,
+      "bedrooms_plus": 1,
+      "bathrooms": 3,
+      "kitchens": 2,
+      "rooms": 8,
+      "den_family_room": false,
+      "air_conditioning": "Central Air",
+      "fireplace": false,
+      "basement": {
+        "type": "Full",
+        "finished": false
+      },
+      "garage": {
+        "attached": true,
+        "spaces": 1
+      },
+      "parking": {
+        "driveway": "Front Yard",
+        "total_spaces": 9
+      },
+      "lot_dimensions_ft": {
+        "frontage": 69.69,
+        "depth": 150.09
+      },
+      "taxes": {
+        "amount": 2135,
+        "year": 2024
+      },
+      "utilities": {
+        "electricity": true,
+        "gas": true,
+        "cable": true,
+        "telephone": true
+      },
+      "water_supply": "Well",
+      "sewer": "Septic",
+      "features": [
+        "Wooden beamed ceilings",
+        "Wooden accents",
+        "Wraparound porch",
+        "Private rear yard"
+      ],
+      "additional_structures": [
+        "Garden Shed",
+        "In-Law Suite"
+      ]
+    },
+    "amenities_nearby": [
+      "Hospital",
+      "Park",
+      "Place of Worship",
+      "Public Transit",
+      "Recreation Centre",
+      "School"
+    ],
+    "description": "This beautiful home is situated just on the edge of the city, offering quick access to all local amenities, schools, and shopping. Besides the main house, there is a self-contained second unit that has been used as an art studio for over 20 years, which would make an excellent in-law suite. The home features wooden beamed ceilings, wooden accents, and artwork on some doors by a talented local artist. It also boasts a wraparound porch and a private rear yard. Although situated on a main thoroughfare, the home is set back from the road. Roof, water treatment, and furnace were all updated 8 years ago, and the AC was updated 3 years ago."
+  }
+}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	

@@ -11,7 +11,6 @@ import com.realestate.app.service.TransactionService;
 
 @RestController
 @RequestMapping("/api/transactions")
-@CrossOrigin(origins = "*")
 public class TransactionController {
 
     @Autowired

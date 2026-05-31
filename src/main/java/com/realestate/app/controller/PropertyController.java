@@ -12,7 +12,6 @@ import com.realestate.app.service.PropertyService;
 
 @RestController
 @RequestMapping("/api/properties") // ✨ Fixed: Changed to plural to match Frontend Axios calls perfectly!
-@CrossOrigin(origins = "*")
 public class PropertyController {
 	
 

@@ -10,7 +10,6 @@ import com.realestate.app.service.AgentService;
 
 @RestController
 @RequestMapping("/api/agents")
-@CrossOrigin(origins = "*", allowedHeaders = "*") // ✨ FIXED: Global header access to stop browser handshake drops
 public class AgentController {
 
     @Autowired
